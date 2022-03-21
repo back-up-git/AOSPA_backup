@@ -76,8 +76,7 @@ BOARD_HAVE_QCOM_FM := true
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := \
-    //$(DEVICE_PATH):libfod_extension.raphael
-TARGET_USES_FOD_ZPOS := true
+    //$(DEVICE_PATH):libudfps_extension.xiaomi_raphael
 
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
