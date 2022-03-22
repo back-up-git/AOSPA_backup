@@ -520,7 +520,12 @@ PRODUCT_SYSTEM_EXT_PROPERTIES += \
     persist.vendor.sensors.enable.mag_filter=true
 
 # Shipping API
-PRODUCT_SHIPPING_API_LEVEL := 28
+PRODUCT_SHIPPING_API_LEVEL := 30
+
+# SOC Properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=QTI \
+    ro.soc.model=SM8150
 
 # System Helper
 PRODUCT_PACKAGES += \
