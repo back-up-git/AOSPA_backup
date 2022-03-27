@@ -463,7 +463,7 @@ PRODUCT_PACKAGES += \
 
 # Power hint
 PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/power/config/msmnile/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    $(LOCAL_PATH)/configs/power/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 TARGET_KERNEL_VERSION := 4.14
 
